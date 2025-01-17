@@ -7,10 +7,8 @@
 set $mod Mod4
 # Your preferred terminal emulator
 set $term foot
-# Your preferred application launcher
-set $menu wmenu-run
 # Your preferred web browser
-set $web luakit
+set $web ungoogled-chromium --no-sandbox
 # Your preferred TUI file manager
 set $file ranger
 
@@ -33,10 +31,7 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+f exec $term $file
 
     # Kill focused window
-    bindsym $mod+k kill
-
-    # Start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+g kill
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -49,7 +44,7 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+g exec swaymsg exit
 #
 # Moving around:
 #
