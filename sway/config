@@ -94,6 +94,7 @@ bindsym $mod+r mode "resize"
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
+    font Code New Roman Nerd Font Normal 11
     # Set bar position
     position bottom
 
@@ -101,7 +102,9 @@ bar {
     workspace_buttons no
 
     # When the status_command prints a new line to stdout, swaybar updates.
-    status_command while date +'%Y-%m-%d %X'; do sleep 1; done
+    # status_command while echo "a"; do sleep 1; done
+    # status_command while date +'%Y-%m-%d %X'; do sleep 1; done
+    status_command while ~/.config/sway/status.sh; do sleep 1; done
 
     colors {
         statusline #ffffff
