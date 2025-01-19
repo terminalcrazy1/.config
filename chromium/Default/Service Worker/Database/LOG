@@ -1,2 +1,3 @@
-2025/01/19-11:46:24.766 4357 Creating DB /root/.config/chromium/Default/Service Worker/Database since it was missing.
-2025/01/19-11:46:24.786 4357 Reusing MANIFEST /root/.config/chromium/Default/Service Worker/Database/MANIFEST-000001
+2025/01/19-13:33:21.018 2c32 Reusing MANIFEST /root/.config/chromium/Default/Service Worker/Database/MANIFEST-000005
+2025/01/19-13:33:21.020 2c32 Recovering log #6
+2025/01/19-13:33:21.022 2c32 Reusing old log /root/.config/chromium/Default/Service Worker/Database/000006.log 

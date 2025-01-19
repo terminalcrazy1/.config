@@ -1,3 +1,5 @@
-2025/01/19-11:42:44.911 405e Reusing MANIFEST /root/.config/chromium/Default/shared_proto_db/MANIFEST-000001
-2025/01/19-11:42:44.913 405e Recovering log #3
-2025/01/19-11:42:44.918 405e Reusing old log /root/.config/chromium/Default/shared_proto_db/000003.log 
+2025/01/19-13:33:07.611 2ab7 Recovering log #4
+2025/01/19-13:33:07.612 2ab7 Level-0 table #6: started
+2025/01/19-13:33:07.627 2ab7 Level-0 table #6: 2648 bytes OK
+2025/01/19-13:33:07.662 2ab7 Delete type=3 #2
+2025/01/19-13:33:07.663 2ab7 Delete type=0 #4

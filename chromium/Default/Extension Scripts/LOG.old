@@ -1,2 +1,3 @@
-2025/01/19-11:18:39.368 14bf Creating DB /root/.config/chromium/Default/Extension Scripts since it was missing.
-2025/01/19-11:18:39.393 14bf Reusing MANIFEST /root/.config/chromium/Default/Extension Scripts/MANIFEST-000001
+2025/01/19-13:33:07.667 2acd Recovering log #4
+2025/01/19-13:33:07.712 2acd Delete type=3 #2
+2025/01/19-13:33:07.712 2acd Delete type=0 #4

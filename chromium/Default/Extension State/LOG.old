@@ -1,3 +1,5 @@
-2025/01/19-11:42:45.665 405e Reusing MANIFEST /root/.config/chromium/Default/Extension State/MANIFEST-000001
-2025/01/19-11:42:45.667 405e Recovering log #3
-2025/01/19-11:42:45.668 405e Reusing old log /root/.config/chromium/Default/Extension State/000003.log 
+2025/01/19-13:33:08.291 2ab6 Recovering log #4
+2025/01/19-13:33:08.292 2ab6 Level-0 table #6: started
+2025/01/19-13:33:08.305 2ab6 Level-0 table #6: 279 bytes OK
+2025/01/19-13:33:08.334 2ab6 Delete type=3 #2
+2025/01/19-13:33:08.335 2ab6 Delete type=0 #4
