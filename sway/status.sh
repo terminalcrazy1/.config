@@ -6,4 +6,6 @@ cputemp=$(echo "scale=1; $cputemp_long/1000" | bc)
 memtotal=$(free | grep "Mem:" | tail -l | awk '{print $2}')
 memused=$(free | grep "Mem:" | tail -l | awk '{print $3}')
 mempercent=$(echo "scale=1; ($memused/$memtotal)*100" | bc)
-echo  $cpuload_normalized%  $cputemp°C  $mempercent% 
+date=$(date | awk '{cat=$1" "$2" "$3" "$4; print cat}')
+time=$(date | awk '{cat=$5" "$6; print cat}')
+echo " $cpuload_normalized%  $cputemp°C  $mempercent%  |  󱑌 $time  $date"

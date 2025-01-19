@@ -1,5 +1,3 @@
-2025/01/19-13:33:08.291 2ab6 Recovering log #4
-2025/01/19-13:33:08.292 2ab6 Level-0 table #6: started
-2025/01/19-13:33:08.305 2ab6 Level-0 table #6: 279 bytes OK
-2025/01/19-13:33:08.334 2ab6 Delete type=3 #2
-2025/01/19-13:33:08.335 2ab6 Delete type=0 #4
+2025/01/19-13:36:04.233 3a3d Reusing MANIFEST /root/.config/chromium/Default/Extension State/MANIFEST-000005
+2025/01/19-13:36:04.235 3a3d Recovering log #7
+2025/01/19-13:36:04.236 3a3d Reusing old log /root/.config/chromium/Default/Extension State/000007.log 

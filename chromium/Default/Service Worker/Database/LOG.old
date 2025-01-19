@@ -1,3 +1,3 @@
-2025/01/19-13:33:07.269 2aca Recovering log #4
-2025/01/19-13:33:07.410 2aca Delete type=3 #2
-2025/01/19-13:33:07.411 2aca Delete type=0 #4
+2025/01/19-13:36:03.364 3a4b Reusing MANIFEST /root/.config/chromium/Default/Service Worker/Database/MANIFEST-000005
+2025/01/19-13:36:03.379 3a4b Recovering log #6
+2025/01/19-13:36:03.384 3a4b Reusing old log /root/.config/chromium/Default/Service Worker/Database/000006.log 

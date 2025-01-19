@@ -111,5 +111,3 @@ bar {
         background #000000
     }
 }
-
-include ./config.d/*
