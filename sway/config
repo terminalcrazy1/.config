@@ -94,6 +94,7 @@ bindsym $mod+r mode "resize"
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
+    # Set the font of the status command
     font Code New Roman Nerd Font Normal 11
     # Set bar position
     position bottom

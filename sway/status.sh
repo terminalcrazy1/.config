@@ -5,7 +5,8 @@ cputemp_long=$(cat /sys/class/thermal/thermal_zone0/temp)
 cputemp=$(echo "scale=1; $cputemp_long/1000" | bc)
 memtotal=$(free | grep "Mem:" | tail -l | awk '{print $2}')
 memused=$(free | grep "Mem:" | tail -l | awk '{print $3}')
-mempercent=$(echo "scale=1; ($memused/$memtotal)*100" | bc)
+mempercent=$(echo "scale=3; ($memused/$memtotal)*100" | bc)
+printablemempercent=${mempercent::-2}
 date=$(date | awk '{cat=$1" "$2" "$3" "$4; print cat}')
 time=$(date | awk '{cat=$5" "$6; print cat}')
-echo " $cpuload_normalized%  $cputemp°C  $mempercent%  |  󱑌 $time  $date"
+echo " $cpuload_normalized%  $cputemp°C  $printablemempercent%  |  󱑌 $time  $date"

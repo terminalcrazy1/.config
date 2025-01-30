@@ -1,3 +1,5 @@
-2025/01/19-13:36:03.434 3a5b Reusing MANIFEST /root/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2025/01/19-13:36:03.509 3a5b Recovering log #4
-2025/01/19-13:36:03.515 3a5b Reusing old log /root/.config/chromium/Default/Local Storage/leveldb/000004.log 
+2025/01/29-08:13:19.052 16f1 Reusing MANIFEST /root/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/01/29-08:13:19.074 16f1 Recovering log #37
+2025/01/29-08:13:19.083 16f1 Level-0 table #40: started
+2025/01/29-08:13:19.125 16f1 Level-0 table #40: 93025 bytes OK
+2025/01/29-08:13:19.133 16f1 Delete type=0 #37

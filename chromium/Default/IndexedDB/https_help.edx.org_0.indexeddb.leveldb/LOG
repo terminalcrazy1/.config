@@ -1,0 +1,6 @@
+2025/01/22-20:27:03.844 25e2b Creating DB /root/.config/chromium/Default/IndexedDB/https_help.edx.org_0.indexeddb.leveldb since it was missing.
+2025/01/22-20:27:03.871 25e2b Reusing MANIFEST /root/.config/chromium/Default/IndexedDB/https_help.edx.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/22-20:27:09.878 25e2c Level-0 table #5: started
+2025/01/22-20:27:09.883 25e2c Level-0 table #5: 7754 bytes OK
+2025/01/22-20:27:09.889 25e2c Delete type=0 #3
+2025/01/22-20:27:09.890 25e2c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
