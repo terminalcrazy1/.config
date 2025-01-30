@@ -1,7 +1,7 @@
 /htop/
 /procps/
 /chromium/GrShaderCache/
-/chromium/GraphiteDawmCache
-/chromium/ShaderCache
-/chromium/segmentation_platform
+/chromium/GraphiteDawmCache/
+/chromium/ShaderCache/
+/chromium/segmentation_platform/
 /gtk-3.0/
